@@ -15,7 +15,10 @@ public class DisplayList {
         s[i].setId(input.nextInt());
         
        System.out.println("Enter name " + (i+1));
-        s[i].setName(input.nextLine()); 
+        s[i].setName(input.nextLine());
+        
+        System.out.println("Enter age " + (i+1));
+        s[i].setAge(input.nextInt());
     }
 
     }
